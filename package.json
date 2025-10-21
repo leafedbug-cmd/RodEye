@@ -1,0 +1,24 @@
+{
+  "name": "rodeye",
+  "private": true,
+  "packageManager": "yarn@1.22.22",
+  "type": "module",
+  "workspaces": [
+    "mobile",
+    "trainer",
+    "shared"
+  ],
+  "scripts": {
+    "lint": "yarn workspaces run lint",
+    "test": "yarn workspaces run test",
+    "yarn:mobile:dev": "yarn workspace mobile dev",
+    "yarn:trainer:dev": "yarn workspace trainer dev",
+    "yarn:trainer:train": "yarn workspace trainer train",
+    "yarn:trainer:export": "yarn workspace trainer export",
+    "yarn:trainer:deploy": "yarn workspace trainer deploy",
+    "yarn:dataset:import": "node scripts/dataset-import.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

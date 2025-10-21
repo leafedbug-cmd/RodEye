@@ -1,0 +1,45 @@
+[
+  {
+    "id": "HIWS1-49",
+    "family": "HIWS1",
+    "brand": "Ditch Witch",
+    "pitch_mm": 3.175,
+    "pitch_tpi": 8,
+    "od_mm": 49.3,
+    "notes": "Baseline saver sub spec used in demo dataset."
+  },
+  {
+    "id": "API-IF-65",
+    "family": "API IF",
+    "brand": "API",
+    "pitch_mm": 3.628,
+    "pitch_tpi": 7,
+    "od_mm": 65.0,
+    "notes": "Industry standard IF connection sample."
+  },
+  {
+    "id": "SaverLok-2.5",
+    "family": "SaverLok",
+    "brand": "Vermeer",
+    "pitch_mm": 2.540,
+    "pitch_tpi": 10,
+    "od_mm": 44.5
+  },
+  {
+    "id": "700-45",
+    "family": "#700",
+    "brand": "Radius",
+    "pitch_mm": 2.116,
+    "pitch_tpi": 12,
+    "od_mm": 42.9,
+    "notes": "High-precision radius spec for clay formations."
+  },
+  {
+    "id": "Firestick-3.5",
+    "family": "Firestick",
+    "brand": "Ditch Witch",
+    "pitch_mm": 3.500,
+    "pitch_tpi": 7.26,
+    "od_mm": 50.8
+  }
+]

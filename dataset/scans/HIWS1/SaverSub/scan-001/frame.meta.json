@@ -1,0 +1,8 @@
+{
+  "scanId": "scan-001",
+  "device": {"model": "Pixel 7 Pro", "os": "Android 14"},
+  "timestamp": "2025-10-20T14:05:02Z",
+  "label": {"brand": "Ditch Witch", "family": "HIWS1", "pitch_mm": 3.175, "od_mm": 49.3},
+  "calibration": {"pxPerMM": 7.92, "focalPx": 1234.0},
+  "capture": {"laser": {"wavelength_nm": 650, "mode": "line"}}
+}
