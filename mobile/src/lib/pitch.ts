@@ -17,7 +17,9 @@ export function estimatePitch(
   stripe: LaserStripeExtraction,
   calibration: CalibrationResult
 ): PitchEstimate {
-  const crestCount = Math.max(2, Math.round(stripe.points.length / 4));
+  // Number of crest intervals is typically points.length - 1 when each point
+  // represents a detected crest along the stripe. Fall back to at least 2.
+  const crestCount = Math.max(2, Math.max(0, stripe.points.length - 1));
   const spanPx =
     stripe.points.length > 1
       ? stripe.points[stripe.points.length - 1].x - stripe.points[0].x
